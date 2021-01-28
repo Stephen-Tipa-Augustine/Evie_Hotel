@@ -517,10 +517,11 @@
 
         <div class="section-title">
           <h2>Book a <span>Table</span></h2>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <p>Make an order for a table now for your convinience</p>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+        <form action="{% url 'Hotel:booking' %}" method="post" role="form" class="php-email-form">
+          {% csrf_token %}
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -849,7 +850,8 @@
           </div>
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+        <form action="{% url 'Hotel:contact' %}" method="post" role="form" class="php-email-form">
+          {% csrf_token %}
           <div class="row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

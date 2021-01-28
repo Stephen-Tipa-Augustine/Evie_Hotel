@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<collection shelf="Bookings">
+	
+	
+	
+
+
+	
+	
+	<Contact title="Customer Message">
+		
+		
+		
+		
+		<name>Stephen Tipa</name>
+		
+		
+		
+		
+		<email>tipastep5@gmail.com</email>
+		
+		
+		
+		
+		<subject>Complain</subject>
+		
+		
+		
+		
+		<message>Some workers are not very friendly to customers!</message>
+		
+		
+	
+	
+	</Contact>
+	
+	
+
+	
+	<Contact title="Customer Message">
+		
+		
+		<name>Stephen Tipa</name>
+		
+		
+		<email>tipastep5@gmail.com</email>
+		
+		
+		<subject>Appreciation</subject>
+		
+		
+		<message>I love your girls all of them!</message>
+		
+	
+	</Contact>
+	
+
+	<Contact title="Customer Message">
+		<name>Stephen Tipa</name>
+		<email>tipastep5@gmail.com</email>
+		<subject>Complain</subject>
+		<message>Well we will look at that</message>
+	</Contact>
+</collection>

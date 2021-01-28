@@ -23,6 +23,7 @@ from Hotel import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="homepage"),
+    path('Hotel/', include('Hotel.urls', namespace='Hotel')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

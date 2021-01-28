@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<collection shelf="Bookings">
+	
+	
+
+
+	
+	<Booking title="Table">
+		
+		
+		<name>Stephen Tipa</name>
+		
+		
+		<email>tipastep5@gmail.com</email>
+		
+		
+		<phone>0756916213</phone>
+		
+		
+		<date>30-01-2021</date>
+		
+		
+		<time>4:00 pm</time>
+		
+		
+		<people>5</people>
+		
+		
+		<message>We are looking forward to hearing from you.</message>
+		
+	
+	</Booking>
+	
+
+	<Booking title="Table">
+		<name>Stephen Tipa</name>
+		<email>tipastep5@gmail.com</email>
+		<phone>0756916213</phone>
+		<date>30-01-2021</date>
+		<time>4:00 pm</time>
+		<people>10</people>
+		<message>I have long for this hotel for something, I believe it will count!</message>
+	</Booking>
+</collection>
